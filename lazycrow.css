@@ -1,0 +1,31 @@
+.estimated {
+    float: right;
+    background-color: blue;
+    margin-left: 0.1em;
+}
+
+.completed {
+    float: left;
+    background-color: darkblue;
+    margin-right: 0.1em;
+}
+
+.indicator {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: .25em;
+    color: white;
+    padding: 3px;
+}
+
+.board_overall {
+    display: inline-block;
+    margin: 6px;
+}
+
+.list_overall {
+    display: inline-block;
+    margin: 0px;
+    float: left;
+}
